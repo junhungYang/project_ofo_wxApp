@@ -1,0 +1,9 @@
+<view class="container">
+    <view class="header">请输入充值金额</view>
+    <view class="money">
+        <input bindinput='bindinput'></input>
+    </view>
+    <view class="charge">
+        <button bindtap="charge">充值</button>
+    </view>
+</view>

@@ -1,0 +1,12 @@
+<!--pages/billing/index.wxml-->
+<view class="container">
+    <view class="number">当前单车编号{{_number ? _number : "xxx"}}</view>
+    <view class="time">
+        <view class="ride-state">{{rideState}}</view>
+        <view class="time-content">{{hours}}:{{minutes}}:{{seconds}}</view>
+    </view>
+    <view class="endride">
+        <button type="warn" bindtap="endride" disabled='{{flag}}'>结束骑行</button>
+        <button type="primary" bindtap="movetoindex">回到地图</button>
+    </view>
+</view>

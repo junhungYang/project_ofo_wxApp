@@ -1,0 +1,10 @@
+.container {
+    width:100%;
+    height:100vh;
+    /* 0~100vh 内容区高度会被分为100份,然后containser占满所有即100vh  */
+}
+
+#ofo-map {
+    width:100%;
+    height:100%;
+}

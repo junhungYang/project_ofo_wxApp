@@ -1,0 +1,92 @@
+/* pages/warn/index.wxss */
+
+.container {
+    width: 100%;
+     background: #f2f2f2; 
+}
+
+.title {
+    width: 100%;
+    height: 80rpx;
+    font-size: 28rpx;
+    margin-left: 50rpx;
+    line-height: 80rpx;
+}
+
+.choose .choose-grids {
+    display: flex;
+    flex-wrap: wrap;
+     background: #fff; 
+    justify-content: space-around;
+    padding: 50rpx;
+}
+
+.grid {
+    width: 45%;
+    height: 100rpx;
+    border: 1px solid #b9dd08;
+    border-radius: 20rpx;
+    text-align: center;
+    line-height: 100rpx;
+    margin-top: 36rpx;
+}
+
+.grid:first-child, .grid:nth-of-type(2) {
+    margin-top: 0;
+}
+
+.action-photo {
+    background: #fff;
+    padding: 40rpx 50rpx;
+}
+
+.add {
+    height: 120rpx;
+    width: 120rpx;
+    display: inline-block;
+    border: 2px dotted #ccc;
+    margin: 10rpx;
+    vertical-align: middle;
+    font-size: 20rpx;
+    color:#ccc;
+    text-align: center;
+    line-height: 60px;
+}
+
+.action-photo image {
+    height: 124rpx;
+    width: 124rpx;
+    margin:10rpx;
+    vertical-align: middle;
+    position: relative;
+    overflow: visible
+}
+.action-photo image icon {
+    position: absolute;
+    top:-20rpx;
+    right:-20rpx;
+}
+
+.action-input {
+    margin-top: 30rpx;
+    padding: 0 40rpx;
+     background:#fff; 
+}
+.action-input input {
+    display:inline-block;
+    width:100%;
+    height:100rpx;
+    font-szie: 24rpx;
+}
+.action-input input:first-child {
+    border-bottom: 1px solid #ccc;
+}
+.sub {
+    margin:30rpx 40rpx;
+    background:#ccc;
+}
+ 
+button {
+    width:100%;
+} 
+

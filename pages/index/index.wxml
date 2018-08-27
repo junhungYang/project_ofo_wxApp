@@ -1,0 +1,6 @@
+<view class="container">
+    <map latitude="{{latitude}}" longitude="{{longitude}}" id="ofo-map" show-location="{{flag}}" controls="{{controls}}" scale="16" bindcontroltap='bindcontroltap'></map>
+    <!--scale 地图的放大倍数 
+    controls 在地图上显示控件
+    bindcontroltap 点击控件时触发，返回空间id -->
+</view>

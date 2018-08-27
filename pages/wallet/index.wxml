@@ -1,0 +1,25 @@
+<view class="container">
+    <view class="balance-wrap">
+        <text class="title">我的余额</text>
+        <text class="balance">{{chargeMoney}}</text>
+        <text class="desc">余额说明</text>
+    </view>
+    <view class="recharge" >
+        <button bindtap='charge'>充值</button>
+    </view>
+    <view class="other-msg">
+        <view class="ticket">
+            <text>我的用车劵</text>
+            <text>0张 ></text>
+        </view>
+        <view class="deposit">
+            <text>我的押金</text>
+            <text>
+                <text class="refund">99元，押金退款</text> >
+            </text>
+        </view>
+    </view>
+    <view class="about-ofo">
+        <text>关于ofo</text><text>></text>
+    </view>
+</view>

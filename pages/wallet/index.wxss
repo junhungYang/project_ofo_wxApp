@@ -1,0 +1,93 @@
+.container {
+    width:100%;
+    height:100vh;
+    background: #f2f2f2;
+}
+
+.balance-wrap {
+    width:100%;
+    height: 400rpx;
+    background:#fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title,.desc {
+    font-size: 26rpx;
+}
+
+.title {
+    margin-top: 40rpx;
+}
+
+.desc {
+    margin-bottom: 20rpx;
+    display: inline-block;
+    height: 60rpx;
+    width:150rpx;
+    border:1px solid #aaa;
+    text-align: center;
+    line-height: 60rpx;
+    border-radius: 30rpx;
+}
+
+.recharge {
+    margin-top: 30rpx;
+}
+
+.recharge button {
+    width:90%;
+    background: #b9dd08
+}
+
+.balance-wrap .balance {
+    font-size: 80rpx;
+    font-weight: 700;
+}
+
+.other-msg {
+    width: 100%;
+    margin-top: 30rpx;
+    background: #fff;
+    height: 200rpx;
+}
+
+.ticket,.deposit {
+    height: 100rpx;
+    width: 90%;
+    margin-left: 5%;
+    line-height: 100rpx;
+    font-size: 28rpx;
+    display:flex;
+    justify-content: space-between
+}
+
+.ticket {
+    border-bottom: 1px solid #ccc
+}
+
+.refund {
+    color:#b9dd08;
+}
+
+.about-ofo {
+    width:90%;
+    height:100rpx;
+    background: #fff;
+    margin-top: 20rpx;
+    line-height: 100rpx;
+    font-size: 28rpx;
+    padding:0 5%;
+    position: relative; 
+}
+
+.about-ofo text:nth-of-type(1) {
+    float: left
+}
+
+.about-ofo text:nth-of-type(2) {
+    float: right
+}
+
